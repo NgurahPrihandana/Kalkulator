@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyKalkulator</string>
+    <string name="name">Masukkan Angka Pertama</string>
+    <string name="alamat">Masukkan Angka Kedua</string>
+    <string name="btnHitung">Hitung</string>
+    <string name="btnClear">Clear</string>
+    <string name="tambah">Pertambahan</string>
+    <string name="kurang">Pengurangan</string>
+    <string name="kali">Perkalian</string>
+    <string name="bagi">Pembagian</string>
+    <string name="appBy">App Created By</string>
+    <string name="myName">Ngurah Prihandana_2105551079</string>
+    <string name="mulai">Mulai Menghitung</string>
+</resources>

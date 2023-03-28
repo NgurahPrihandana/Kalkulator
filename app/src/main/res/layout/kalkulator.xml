@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="36dp"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/angka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:inputType="number"
+        >
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alamat"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="16dp"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/angka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:inputType="number"
+        >
+
+    </EditText>
+
+    <RadioGroup
+        android:id="@+id/actionGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp">
+
+        <RadioButton
+            android:id="@+id/tambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tambah" />
+
+        <RadioButton
+            android:id="@+id/kurang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kurang" />
+
+        <RadioButton
+            android:id="@+id/kali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kali" />
+
+        <RadioButton
+            android:id="@+id/bagi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bagi" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        >
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:text="@string/btnHitung"
+
+            />
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnClear"
+            />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:inputType="none"
+        android:enabled="false"
+        android:textColor="@color/black"
+        >
+    </EditText>
+</LinearLayout>
